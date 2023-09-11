@@ -1,6 +1,6 @@
 ---
 - name: nfs client
-  hosts: 192.168.56.21 192.168.56.22
+  hosts: 192.168.56.21,192.168.56.22
   tasks:
     - name: sudo apt update
       apt:
